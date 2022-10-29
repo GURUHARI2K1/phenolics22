@@ -8,6 +8,7 @@ nav{
     position: sticky;
     top: 0px;
     justify-content: space-between;
+    z-index: 5;
 
     img{
         width: 4.5rem;
@@ -47,7 +48,7 @@ nav{
     transform: rotate(0deg);
     transition: .5s ease-in-out;
     cursor: pointer;
-    z-index: 3;
+    z-index: 6;
 
     span{
         display: block;
@@ -113,7 +114,7 @@ nav{
         right: -100%;
         top: 0;
         opacity: 0;
-        z-index: 2;
+        z-index: 5;
         transition: .25s ease-in-out, opacity .5s ease-in-out;
     
     }
