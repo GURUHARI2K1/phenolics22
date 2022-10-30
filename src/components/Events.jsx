@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/events.scss'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from 'swiper';
-import image from '../images/bg.png'
 
 import { data } from '../cardData';
 
@@ -13,8 +12,8 @@ export const Events = () => {
     <section className="event container">
         <h3>EVENTS</h3>
         <Swiper
-            spaceBetween={30}
-            centeredSlides={true}
+            spaceBetween={250}
+            slidesPerView={"auto"}
             loop={true}
             autoplay={{
               delay: 2500,

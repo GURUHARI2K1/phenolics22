@@ -86,9 +86,8 @@ nav{
     gap: 1rem;
 
     span{
-        font-size: var(--fn-600);
+        font-size: var(--fn-400);
         cursor: pointer;
-        font-weight: 600;
         color: var(--black);
         
     }
@@ -140,5 +139,11 @@ nav{
 
     .active{
         display: block;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    nav{
+        height: 10vh;
     }
 }
