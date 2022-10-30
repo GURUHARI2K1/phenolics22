@@ -42,40 +42,9 @@ export const Events = () => {
                     </div>
                 </SwiperSlide>
             )}
-            {/* <SwiperSlide>
-                <div className="card">
-                    <div className='card-type'>{data[0].type}</div>
-                    <div className='card-info'>
-                        <div className='event-type'>
-                            <div className='card-image'>
-                                <img src={data[0].img} alt="image"/>
-                            </div>
-                            <div className='mode'>
-                                <span>{data[0].mode}</span>
-                                <span>{data[0].date}</span>
-                            </div>
-                        </div>
-                        <div className='title'><span>{data[0].title}</span></div>
-                    </div>
-                </div>
-            </SwiperSlide> */}
             
         </Swiper>
-        {/* <div className="card">
-            <div className='card-type'>non technical</div>
-            <div className='card-info'>
-                <div className='event-type'>
-                    <div className='card-image'>
-                        <img src={image} alt="image"/>
-                    </div>
-                    <div className='mode'>
-                        <span>online</span>
-                        <span>11 novz</span>
-                    </div>
-                </div>
-                <div className='title'><span>Break the rules</span></div>
-            </div>
-        </div> */}
+        
     </section>
   )
 }
