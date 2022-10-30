@@ -6,7 +6,7 @@ nav{
     flex-direction: row;
     align-items: center;
     position: sticky;
-    top: 0px;
+    top: 0;
     justify-content: space-between;
     z-index: 5;
 
@@ -36,6 +36,10 @@ nav{
     &.open > .menu{
         opacity: 1;
         right: 0;
+
+        .bg{
+          transform: rotate(35deg);
+        }
     }
 }
 
@@ -104,12 +108,13 @@ nav{
     .menu{
         position: fixed;
         width: 60vw;
-        height: 100vh;
+        height: fit-content;
         display: flex;
         padding-inline: 2rem;
         padding-top: 6rem;
-        background: var(--prim-color);
         flex-direction: column;
+        align-items: center;
+        border-radius: 50%;
         gap: 2.5rem;
         right: -100%;
         top: 0;
@@ -117,6 +122,20 @@ nav{
         z-index: 5;
         transition: .25s ease-in-out, opacity .5s ease-in-out;
     
+    }
+
+    .bg{
+        position: absolute;
+        top: -40%;
+        left: -10%;
+        border-radius: 5rem;
+        width: 40rem;
+        transform-origin: center;
+        height: 40rem;
+        background: var(--prim-color);
+        transition-delay: .25s;
+        transition: .5s ease-in-out;
+        z-index: -1;
     }
 
     .active{

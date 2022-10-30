@@ -55,6 +55,11 @@ html,body{
 	min-height: 100%;
 }
 
+.no-interact{
+	height: 100%;
+	overflow: hidden;
+}
+
 *::-webkit-scrollbar{
 	display: none;
 }

@@ -23,6 +23,7 @@ const Navbar = () => {
             </div>
             <div className={`${active?'active':''} hidden`} onClick={handleMenu}></div>
             <div className='menu'>
+                <div className="bg"></div>
                 <span>Home</span>
                 <span>Events</span>
                 <span>About</span>
