@@ -3,36 +3,33 @@
     width: 100%;
 
     h3{
-        font-size: 2.5rem;
+        font-size: var(--fn-700);
         font-weight: 600;
-        padding-block: 1rem 2rem;
+        padding-block: 1rem;
     }
 }
 
 .card{
     width: 100%;
-    height: 30rem;
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
     align-items: center;
 }
 
 .card-type{
-    text-align: center;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    font-size: 1.6rem;
+    font-size: var(--fn-400);
     font-weight: bolder;
-    color: rgb(114, 114, 114);
+    color: var(--prim-color);
     text-transform: uppercase;
 }
 
 .card-info{
     background-image: linear-gradient(45deg, var(--prim-color), white);
-    width: 80%;
-    height: 100%;
     border-radius: 0.9rem;
     display: flex;
     justify-content: space-between;
@@ -42,44 +39,44 @@
 
 .event-type{
     width: 100%;
-    height: 80%;
+    flex: 1;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .card-image{
     position: relative;
-    width: 20rem;
-    height: 20rem;
+    width: 11.5rem;
+    height: 11.5rem;
 
     img{
-        width: 20rem;
-        height: 20rem;
-        position: absolute;
-        top: -1.5rem;
-        left: -4rem;
-        border-radius: 1rem;                  
-        box-shadow:  24px 24px 15px -12px rgba(0, 0, 0, 0.5);
+        width: 13rem;
+        height: 13rem;
+        aspect-ratio: 1/1;
+        transform: translate(-1rem,-1rem);
+        overflow: hidden;
+        border-radius: 0.3rem;                  
+        box-shadow:  20px 20px 15px -12px rgba(0, 0, 0, 0.5);
     }
 }
 
 .mode{
     display: flex;
-    padding-inline-end: 2rem;
+    padding-inline: 1rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
     justify-content: space-around;
     span:nth-child(1){
-        font-size: 2rem;
+        font-size: var(--fn-400);
+        color: var(--black);
         text-transform: capitalize;
     }
     span:nth-child(2){
         color: var(--dark);
-        font-size: 1.6rem;
+        font-size: var(--fn-300);
         writing-mode: vertical-rl;
         text-orientation: upright;
     }
@@ -88,11 +85,11 @@
 .title{
     width: 100%;
     text-align: center;
-    padding-block: 1rem 2.5rem;
+    padding-block: 1rem;
 
     span{
-        font-size: 1.6rem;
-        letter-spacing: 0.2rem;
+        font-size: var(--fn-400);
+        letter-spacing: 0.1rem;
         word-spacing: 0.2rem;
     }
 }

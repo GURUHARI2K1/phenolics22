@@ -37,11 +37,24 @@ table {
 
 *{
 	box-sizing: border-box;
+	font-family: primary;
+}
+
+:root{
 	--prim-color: #fea20b;
 	--dark-shade: #cececf;
 	--dark-color: #303134;
 	--black: #202124;
-	font-family: primary;
+
+	--fn-xxl: clamp(2rem, 12vw, 5rem);
+	--fn-xl: clamp(1.5rem, 11vw, 4rem);
+	--fn-900: clamp(2rem, 9vw, 3rem);
+	--fn-700: clamp(1.5rem, 6vw, 2.5rem);
+	--fn-600: clamp(1rem, 5vw, 2rem);
+	--fn-400: clamp(0.6rem, 4vw, 1rem);
+	--fn-300: clamp(0.6rem, 3vw, 0.8rem);
+
+
 }
 
 @font-face {
@@ -50,7 +63,6 @@ table {
 }
 
 html,body{
-	font-size: 10px;
 	width: 100vw;
 	min-height: 100%;
 }
