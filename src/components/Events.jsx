@@ -1,25 +1,35 @@
 import React from 'react'
 import '../styles/events.scss'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from 'swiper';
+import { Autoplay, EffectCoverflow } from 'swiper';
 
 import { data } from '../cardData';
 
 import "swiper/css";
+import "swiper/css/effect-coverflow";
 
 export const Events = () => {
   return (
     <section className="event container">
         <h3>EVENTS</h3>
         <Swiper
-            spaceBetween={250}
+            effect={"coverflow"}
+            centeredSlides={true}
+            spaceBetween={50}
             slidesPerView={"auto"}
+            coverflowEffect={{
+              rotate: 0,
+              stretch: 0,
+              depth: 200,
+              modifier: 2,
+              slideShadows: true,
+            }}
             loop={true}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
             }}
-            modules={[Autoplay]}
+            modules={[Autoplay, EffectCoverflow]}
             className="mySwiper"
         >
             {data.map( (eve) => 

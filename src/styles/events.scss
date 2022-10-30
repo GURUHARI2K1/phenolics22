@@ -1,6 +1,5 @@
 .event{
     padding-block: 1rem;
-    width: 100%;
 
     h3{
         font-size: var(--fn-700);
@@ -10,7 +9,6 @@
 }
 
 .card{
-    width: 100%;
     display: flex;
     padding: 1rem;
     flex-direction: row;
@@ -38,12 +36,20 @@
 }
 
 .event-type{
-    width: 100%;
     flex: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.swiper-slide{
+    width: fit-content !important;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right{
+    background: none !important;
 }
 
 .card-image{
