@@ -12,7 +12,7 @@ export const Hero = () => {
         <div className='title-2'>
           <h2>PHENOLICS'22</h2>
           <span>Organised By</span>
-          <p>Department Of Plastic Technology</p>
+          <p>Department Of Plastics Technology</p>
         </div>
         <span>EVENTS</span>
       </div>
@@ -20,3 +20,5 @@ export const Hero = () => {
     </main>
   )
 }
+
+export default Hero
