@@ -1,24 +1,23 @@
 import React from 'react'
+import '../styles/card.scss'
+import { Link } from 'react-router-dom'
 
-const Card = () => {
+const Card = ({data}) => {
   return (
-    <div>
-        <img src="" alt="" />
+    <div className='event-card'>
+        <img src={data.img} alt="like" />
         <div className="details">
             <div className="discrip">
-                <h3></h3>
-                <p></p>
+                <h3>{data.title}</h3>
+                <span>{data.mode}</span>
             </div>
             <div className="timing">
-                <span></span>
-                <span></span>
-            </div>
-            <div className="modes">
-                <span></span>
+                <span>{data.date}</span>
+                <span>{data.time}</span>
             </div>
             <div className="cta">
-                <span></span>
-                <span></span>
+                {data.slug?<a href={data.slug}><span>register</span></a>:null}
+                <span>details</span>
             </div>
         </div>
     </div>

@@ -1,16 +1,16 @@
 .event{
-    padding-block: 1rem;
+    padding-block: 5rem 4rem;
 
     h3{
         font-size: var(--fn-700);
         font-weight: 600;
-        padding-block: 1rem;
+        padding-block-end: 1rem;
     }
 }
 
 .card{
     display: flex;
-    padding: 3rem;
+    padding-block: 3rem 1rem;
     flex-direction: row;
     justify-content: center;
     gap: 2rem;

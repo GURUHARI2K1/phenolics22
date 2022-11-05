@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/hero.scss'
 
 export const Hero = () => {
@@ -14,7 +15,7 @@ export const Hero = () => {
           <span>Organised By</span>
           <p>Department Of Plastics Technology</p>
         </div>
-        <span>EVENTS</span>
+        <span><Link to="/events">EVENTS</Link></span>
       </div>
       <span>11 NOV 2022</span>
     </main>

@@ -22,7 +22,8 @@ export const data = [
         mode: 'offline',
         img: paperpresentation,
         date: '11 nov',
-        time:'9:30AM - 11:00AM'
+        time:'10:00AM - 11:00AM',
+        slug : 'https://forms.gle/SRm5inoYV3riee1RA'
     },
     {
         title: 'Poster Presentation',
@@ -30,7 +31,8 @@ export const data = [
         mode: 'offline',
         img: posterpresentation,
         date: '11 nov',
-        time:'9:30AM - 11:00AM'
+        time:'10:00AM - 11:00AM',
+        slug : 'https://forms.gle/urf6g6MvogfuctQb6'
     },
     {
         title: 'Trial by Trivia',
@@ -38,7 +40,8 @@ export const data = [
         mode: 'offline',
         img: trialbytrivia,
         date: '11 nov',
-        time:'11:00AM - 11:45AM'
+        time:'11:00AM - 11:45AM',
+        slug : 'https://forms.gle/jC8WFmTb4aWx4sXm6'
     },
     {
         title: 'Plasticore',
@@ -46,7 +49,8 @@ export const data = [
         mode: 'offline',
         img: plasticore,
         date: '11 nov',
-        time:'11:45AM - 12:30PM'
+        time:'12:00PM - 1:00PM',
+        slug : 'https://forms.gle/VzoXNsgc1L3KPRBH9'
     },
     {
         title: 'Just in Time',
@@ -54,7 +58,8 @@ export const data = [
         mode: 'offline',
         img: justintime,
         date: '11 nov',
-        time:'12:30PM - 01:15AM'
+        time:'2:15PM - 03:15PM',
+        slug : 'https://forms.gle/MzaVhAPTTsE9V3cf6'
     },
     {
         title: 'Work Shop',
@@ -62,7 +67,8 @@ export const data = [
         mode: 'offline',
         img: workshop,
         date: '11 nov',
-        time:'9:30AM - 11:00AM'
+        time:'10:00AM - 11:30AM',
+        slug : '#'
     },
     {
         title: 'Wacky Art',
@@ -70,7 +76,8 @@ export const data = [
         mode: 'offline',
         img: wackyart,
         date: '11 nov',
-        time:'2PM Onwards'
+        time:'03:30PM - 04:30PM',
+        slug : 'https://forms.gle/uuMgyoX14y8hwrDW7'
     },
     {
         title: 'Mind martians',
@@ -78,7 +85,8 @@ export const data = [
         mode: 'offline',
         img: mindmartians,
         date: '11 nov',
-        time:'2PM Onwards'
+        time:'02:15PM - 03:15PM',
+        slug : 'https://forms.gle/Le4hAvZkY8Q6j2zt9'
     },
     {
         title: 'BGMI',
@@ -86,7 +94,8 @@ export const data = [
         mode: 'online',
         img: bgmi,
         date: '11 nov',
-        time:'Afernoon'
+        time:'02:00PM - 03:00PM',
+        slug : 'https://forms.gle/dHGqPwQdt1hrM9zs8'
     },
     {
         title: 'Chennai-600032',
@@ -94,7 +103,8 @@ export const data = [
         mode: 'offline',
         img: chennai600032,
         date: '11 nov',
-        time:''
+        time:'10:30AM - 04:00PM',
+        slug : 'https://forms.gle/p6MmwW9tsqwSzTHf7'
     },
     {
         title: 'Surprise Event',
@@ -102,7 +112,8 @@ export const data = [
         mode: 'offline',
         img: surpriseevent,
         date: '11 nov',
-        time:'2PM Onwards'
+        time:'03:30PM - 04:30PM',
+        slug : null
     },
     {
         title: 'Photography',
@@ -110,7 +121,8 @@ export const data = [
         mode: 'online',
         img: photography,
         date: '11 nov',
-        time:'Afernoon'
+        time:'any',
+        slug : 'https://forms.gle/P5mruYp3XZsYisYJ6'
     },
     {
         title: 'Clash of Memes',
@@ -118,7 +130,8 @@ export const data = [
         mode: 'online',
         img: clashofmeme,
         date: '11 nov',
-        time:'Afernoon'
+        time:'any',
+        slug : 'https://forms.gle/DukaG3CSCkWeqGXB8'
     },
     {
         title: 'Free Fire',
@@ -126,6 +139,7 @@ export const data = [
         mode: 'online',
         img: freefire,
         date: '11 nov',
-        time:'Afernoon'
+        time:'02:00PM - 03:00PM',
+        slug : 'https://forms.gle/dHGqPwQdt1hrM9zs8'
     },
 ]

@@ -87,9 +87,9 @@ nav{
 
     span{
         font-size: var(--fn-400);
-        cursor: pointer;
         color: var(--black);
-        
+        padding: 1rem;
+        cursor: pointer;
     }
 }
 
@@ -114,7 +114,6 @@ nav{
         flex-direction: column;
         align-items: center;
         border-radius: 50%;
-        gap: 2.5rem;
         right: -100%;
         top: 0;
         opacity: 0;

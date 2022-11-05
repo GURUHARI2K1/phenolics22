@@ -1,12 +1,12 @@
 .about{
     width: 100%;
     background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url('../images/bg.png');    background-position: bottom;
-    padding-block: 1rem;
+    padding-block: 5rem;
     background-size: cover;
 
     & > h3{
         font-size: var(--fn-700);
-        padding-block: 1rem;
+        padding-block-end: 1rem;
         color: white;
     }
 

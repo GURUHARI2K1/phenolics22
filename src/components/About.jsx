@@ -3,7 +3,7 @@ import '../styles/about.scss'
 
 const About = () => {
   return (
-    <div className='container about'>
+    <div id='about' className='container about'>
         <h3>ABOUT</h3>
         <div className="details">
             <p><span>Phenolics'22</span>, apart of <span>Tepic'22 technical symposium</span> organised by Department of Plastics Technology.</p>
