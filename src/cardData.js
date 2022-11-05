@@ -68,7 +68,7 @@ export const data = [
         img: workshop,
         date: '11 nov',
         time:'10:00AM - 11:30AM',
-        slug : '#'
+        slug : 'https://forms.gle/kBnqiqfKsU2UWHiV6'
     },
     {
         title: 'Wacky Art',

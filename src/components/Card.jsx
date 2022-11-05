@@ -16,7 +16,7 @@ const Card = ({data}) => {
                 <span>{data.time}</span>
             </div>
             <div className="cta">
-                {data.slug?<a href={data.slug}><span>register</span></a>:null}
+                {data.slug?<a href={data.slug} target="_blank"><span>register</span></a>:null}
                 <span>details</span>
             </div>
         </div>
