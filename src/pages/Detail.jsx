@@ -8,6 +8,8 @@ const Detail = ({det}) => {
         <h1>{det.title}</h1>
         <p>{det.descrip}</p>
         {det.topics?<div className='topic'><h3>Topics</h3>{det.topics.map(data => <p>{data}</p>)}</div> :null}
+        {det.themes?<div className='themes'><h3>Themes</h3>{det.themes.map(data => <p>{data}</p>)}</div> :null}
+        {det.procedure?<div className='procedure'><h3>Procedure</h3>{det.procedure.map(data => <p>{data}</p>)}</div> :null}
         <div className="rules">
         <h3>Instructions and Rules</h3>
         {det.rules.map(data => <p>{data}</p>) }
