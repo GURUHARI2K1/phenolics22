@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Event from './pages/Event' 
 import './styles/global.scss'
 import './styles/app.scss'
+import Detail from './pages/Detail';
+import details from './details';
 
 const App = () => {
     return(
@@ -13,6 +15,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/events" element={<Event/>}/>
+                {details.map(detail => <Route path={detail.route} element={<Detail det={detail}/>}/>)}
             </Routes>
         </>
     )

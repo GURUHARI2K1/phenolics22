@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/hero.scss'
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <main className='Hero container'>
       <div className='info'>

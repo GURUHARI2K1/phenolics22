@@ -51,14 +51,19 @@
             color: white;
             text-transform: capitalize;
         }
+
+        &:nth-child(2){
+                cursor: pointer;
+                border-radius: 5rem;
+                padding: 4% 13%;
+                background-color: transparent;
+                border: solid .15rem var(--prim-color);
+                
+                span {
+                    color: var(--prim-color);
+                };
+        }
     }
 
-    & > span{
-        cursor: pointer;
-        border-radius: 5rem;
-        padding: 4% 13%;
-        background-color: transparent;
-        color: var(--prim-color);
-        border: solid .15rem var(--prim-color);
-    }
+     
 }

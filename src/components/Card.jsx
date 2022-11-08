@@ -17,7 +17,8 @@ const Card = ({data}) => {
             </div>
             <div className="cta">
                 {data.slug?<a href={data.slug} target="_blank"><span>register</span></a>:null}
-                <span>details</span>
+                {data.route?<Link to={data.route}><span>details</span></Link>:null}
+                
             </div>
         </div>
     </div>

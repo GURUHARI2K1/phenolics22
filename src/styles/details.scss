@@ -1,0 +1,22 @@
+.detail{
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h1{
+        padding-block: 2rem;
+        font-size: var(--fn-700);
+        text-transform: capitalize;
+    }
+
+    h3{
+        padding-block: 1rem;
+        font-size: var(--fn-600);
+    }
+
+    p{
+        padding-block: 0.5rem;
+        font-size: var(--fn-400);
+    }
+}
